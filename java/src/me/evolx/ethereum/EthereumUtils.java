@@ -1,4 +1,4 @@
-package net.evolx.ethereum;
+package me.evolx.ethereum;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package net.evolx.ethereum;
+package me.evolx.ethereum;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -459,7 +459,7 @@ public class Web3 {
 		try {
 			obj = (JSONObject) JSONValue.parse(call(method, params));
 			return obj.get("result");
-		} catch (Exception ex) {
+		} catch (IOException ex) {
 			return null;
 		}
 	}
